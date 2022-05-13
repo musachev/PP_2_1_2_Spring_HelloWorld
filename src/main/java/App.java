@@ -18,7 +18,7 @@ public class App {
         System.out.println(beanCat1.getName());
 
         System.out.println();
-        System.out.println(bean.equals(bean1));
-        System.out.println(beanCat.equals(beanCat1));
+        System.out.println(bean == bean1);
+        System.out.println(beanCat == beanCat1);
     }
 }
